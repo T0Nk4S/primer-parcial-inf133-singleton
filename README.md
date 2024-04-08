@@ -12,7 +12,7 @@
 3. Completa tus datos personales en la siguiente tabla:
     | Nombre   | Apellido   | CI   |
     | -------- | ---------- | ---- |
-    | `nombre` | `apellido` | `ci` |
+    | `Jorge` | `Zuñagua Peralta` | `10099569` |
 
 4. Realiza un commit de esta modificación y sube los cambios a tu repositorio remoto ejecutando los siguientes comandos desde la terminal de tu equipo local o desde **GitHub Codespaces**:
     ```bash

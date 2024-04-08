@@ -133,7 +133,7 @@ def run():
     print('Iniciando servidor...')
     server_address = ('localhost', 8080)
     httpd = HTTPServer(server_address, HTTPRequestHandler)
-    print('Servidor en funcionamiento')
+    print('Servidor en iniciado en el puerto 8080...')
     httpd.serve_forever()
 
 if __name__ == '__main__':
