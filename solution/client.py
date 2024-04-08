@@ -30,13 +30,23 @@ def delete_game(game_id):
     print(response.json())
 
 
-for i in range (1,25):
-
-    if __name__ == "__main__":
+if __name__ == "__main__":
         create_game("Julian")
         get_games()
-        make_attempt(i, 25)
-        make_attempt(i, 75)
-        make_attempt(i, 50)
-        delete_game(i)
+        get_games(player="Julian")
+        make_attempt(1, 25)
+        make_attempt(1, 75)
+        make_attempt(1, 50)
+        delete_game(1)
         get_games()
+
+#for i in range (1,25):
+
+    #if __name__ == "__main__":
+        #create_game("Julian")
+        #get_games()
+        #make_attempt(i, 25)
+        #make_attempt(i, 75)
+        #make_attempt(i, 50)
+        #delete_game(i)
+        #get_games()
